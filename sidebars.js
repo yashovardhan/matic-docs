@@ -116,8 +116,18 @@ module.exports = {
         "develop/wallets/fortmatic",
         "develop/wallets/metamask",
         "develop/wallets/portis",
-        "develop/wallets/torus",
         "develop/wallets/walletconnect",
+        {
+          type: "category",
+          label: "Web3Auth",
+          items: [
+            "develop/wallets/web3auth/introduction",
+            "develop/wallets/web3auth/getstarted",
+            "develop/wallets/web3auth/customauth",
+            "develop/wallets/web3auth/web3auth-and-wallets",
+            "develop/wallets/web3auth/torus",
+          ],
+        },
         {
           type: "category",
           label: "Polygon Web Wallet",
